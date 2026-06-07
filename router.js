@@ -39,7 +39,7 @@ async function route(view) {
 
     if (viewBase === "rules") {
         try {
-            appContainer.innerHTML = Views.rules();
+            appContainer.innerHTML = Rules.rules();
         } catch(e) {
             appContainer.innerHTML = Rules.rules('');
         }
