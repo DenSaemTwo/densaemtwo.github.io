@@ -40,7 +40,7 @@ async function route(view) {
         try {
             appContainer.innerHTML = Rules.rules();
         } catch(e) {
-            appContainer.innerHTML = Rules.rules('');
+            appContainer.innerHTML = Rules.rules();
         }
     } 
 }
