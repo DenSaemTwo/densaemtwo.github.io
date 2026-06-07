@@ -1,9 +1,9 @@
-const resourcepakcs = {
+const resourcepacks = {
 
 _resourcepakcs: () => `
-        <h1>Resourcepakcs</h1>
+        <h1>Resourcepacks</h1>
         <div>
-            Resourcepakcs is here
+            Resourcepacks is here
         </div>
     `,
   };
