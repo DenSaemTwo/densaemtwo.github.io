@@ -42,11 +42,7 @@ async function route(view) {
     const dynamicId = viewParts[1];
 
     if (viewBase === "rules") {
-        try {
-            appContainer.innerHTML = Rules.rules();
-        } catch(e) {
-            appContainer.innerHTML = Rules.rules();
-        }
+        appContainer.innerHTML = Rules.rules();
     } 
 }
 
