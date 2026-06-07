@@ -1,3 +1,8 @@
+if (typeof rules !== 'undefined') {
+    window.Rules = rules;
+}
+
+
 const router = {
     navigate(view) {
         window.location.hash = '#' + (view.startsWith('/') ? view : '/' + view);
