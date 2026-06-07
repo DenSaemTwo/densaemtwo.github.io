@@ -45,3 +45,19 @@ async function route(view) {
         }
     } 
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    const appContent = document.getElementById('app-content');
+    if (appContent) {
+        const observer = new MutationObserver(() => {
+            if (document.getElementById('reg-password') && !document.getElementById('strength-bar-bound')) {
+                const regInput = document.getElementById('reg-password');
+                regInput.setAttribute('id-bound', 'true');
+                attachPasswordStrengthChecker('reg-password', 'strength-bar', 'strength-text');
+            }
+        });
+        observer.observe(appContent, { childList: true, subtree: true });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", handleHashChange);
