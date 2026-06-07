@@ -26,7 +26,6 @@ function handleHashChange() {
 window.addEventListener('hashchange', handleHashChange);
 
 async function route(view) {
-    clearInterval(carouselInterval);
     window.onscroll = null;
     
     const appContainer = document.getElementById("app-content");
