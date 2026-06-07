@@ -1,6 +1,3 @@
-window.Rules = rules;
-
-
 const router = {
     navigate(view) {
         window.location.hash = '#' + (view.startsWith('/') ? view : '/' + view);
@@ -39,9 +36,16 @@ async function route(view) {
     const viewBase = viewParts[0];
     const dynamicId = viewParts[1];
 
-    if (viewBase === "rules") {
-        appContainer.innerHTML = Rules._rules();
+
+    if(viewBase === "home" || viewBase === ""){
+        appContainer.innerHTML = `<h1>Test stuff</h1>`;
+    }
+    else if (viewBase === "rules") {
+        appContainer.innerHTML = rules._rules();
     } 
+    else{
+        appContainer.innerHTML = `<h1>404 Page not Found</h1>`; //Заменить это на настоящий 404.html чтобы сделать человеческую навигацию через просто / и HistoryAPI(вроде)
+    }
 }
 
 window.addEventListener('DOMContentLoaded', () => {
