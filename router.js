@@ -1,6 +1,4 @@
-if (typeof rules !== 'undefined') {
-    window.Rules = rules;
-}
+window.Rules = rules;
 
 
 const router = {
