@@ -38,6 +38,7 @@ async function route(view) {
 
 
     if(viewBase === "home" || viewBase === ""){
+        alert("Блин ты такой крутой, на кнопку нажать смог, молодец");
         appContainer.innerHTML = `<h1>Test stuff</h1>`;
     }
     else if (viewBase === "rules") {
