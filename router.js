@@ -42,6 +42,12 @@ async function route(view) {
     }
     else if (viewBase === "rules") {
         appContainer.innerHTML = rules._rules();
+    }
+    else if (viewBase === "crafts") {
+        appContainer.innerHTML = crafts._crafts();
+    }
+    else if (viewBase === "resourcepacks") {
+        appContainer.innerHTML = resourcepacks._resourcepacks();
     } 
     else{
         appContainer.innerHTML = `<h1>404 Page not Found</h1>`; //Заменить это на настоящий 404.html чтобы сделать человеческую навигацию через просто / и HistoryAPI(вроде)
