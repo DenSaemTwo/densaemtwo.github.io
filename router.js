@@ -42,7 +42,7 @@ async function route(view) {
     const dynamicId = viewParts[1];
 
     if (viewBase === "rules") {
-        appContainer.innerHTML = Rules.rules();
+        appContainer.innerHTML = Rules._rules();
     } 
 }
 
