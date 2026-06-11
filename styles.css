@@ -56,9 +56,10 @@ header {
 }
 
 .logo {
-    position: absolute;             /* Центрируем относительно .navbar */
-    left: 50%;                      /* Сдвигаем левый край на середину панели */
-    transform: translateX(-50%);    /* Сдвигаем назад на половину ширины самого логотипа */
+    position: absolute;
+    left: 50%;
+    top: 50%;                      
+    transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
 }
