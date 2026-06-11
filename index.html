@@ -10,8 +10,14 @@
 <body>
     <header id="main-header">
     <nav class="container nav-bar">
-        <div class="logo" onclick="window.location.hash = '#/home'">Aven</div>
-        <div class="nav-links">
+        <img 
+    src="./assets/logo.png" 
+    alt="А какой?" 
+    class="logo" 
+    onclick="window.location.hash = '#/home'"
+    onerror="this.outerHTML='<div class=\'logo\' onclick=\'window.location.hash='#/home'\'>А какой?</div>'"
+>
+        <div class="nav-links">	
             <a href="#/rules">Rules</a>
             <a href="#/crafts">Crafts</a>
             <a href="#/resourcepacks">Resourcepacks</a>
@@ -37,7 +43,7 @@
     <script src="./router.js"></script> <!-- держать эту чепуху в самом низу -->
   
      <div id="customAlertModal" class="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;">
-        <div class="modal-content" style="background:white; padding:25px; border-radius:12px; width:90%; max-width:400px; text-align:center; box-shadow: 0 4px 20px rgba(0,0,0,0.3); border:none;">
+        <div class="modal-content" style="background: var(--card-bg); padding:25px; border-radius:12px; width:90%; max-width:400px; text-align:center; box-shadow: 0 4px 20px rgba(0,0,0,0.3); border:none;">
             <h3 style="margin-bottom: 12px; color: var(--text-main);"> </h3>
             <p id="customAlertMessage" style="font-size:1rem; margin-bottom:20px; color:var(--text-muted); line-height:1.5;"></p>
             <button class="btn" onclick="closeCustomAlert()" style="padding:10px 30px; width:100%; border-radius:8px;">OK</button>
