@@ -49,19 +49,12 @@ header {
 }
 
 .nav-bar {
-    position: relative; 
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;                      
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
     font-weight: 800;
     font-size: 1.4rem;
     color: var(--primary-color);
