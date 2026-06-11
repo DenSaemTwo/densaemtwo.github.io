@@ -49,17 +49,18 @@ header {
 }
 
 .nav-bar {
+    position: relative; 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .logo {
-    font-weight: 800;
-    font-size: 1.4rem;
-    color: var(--primary-color);
-    cursor: pointer;
-    letter-spacing: -0.5px;
+    position: absolute;             /* Центрируем относительно .navbar */
+    left: 50%;                      /* Сдвигаем левый край на середину панели */
+    transform: translateX(-50%);    /* Сдвигаем назад на половину ширины самого логотипа */
+    display: flex;
+    align-items: center;
 }
 
 .nav-links {
