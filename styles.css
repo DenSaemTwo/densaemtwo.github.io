@@ -65,6 +65,7 @@ header {
 .nav-links {
     display: flex;
     gap: 1.5rem;
+    justify-content: flex-end;
 }
 
 .nav-links a {
