@@ -14,7 +14,7 @@ const home = {
         <div class="features-grid">
             <div class="feature-card">
                 <span class="feature-icon">🏙️</span>
-                <h3>Один город/h3>
+                <h3>Один город</h3>
                 <p>Все игроки живут в единственном городе, где строят свою историю. Здесь нет места отшельникам — мы делим одни улицы, одну экономику и одно будущее.</p>
             </div>
             <div class="feature-card">
