@@ -43,8 +43,8 @@ const crafts = {
             tag: "Пластинка"
         },
 		{
-            name: "Лена Рейн - Creator(Музыкальная шкатулка)",
-            img: "./assets/crafts/Лена Рейн - Creator(Музыкальная шкатулка).png",
+            name: "Лена Рейн - Creator (Музыкальная шкатулка)",
+            img: "./assets/crafts/Лена Рейн - Creator (Музыкальная шкатулка).png",
             desc: "",
             tag: "Пластинка"
         },
