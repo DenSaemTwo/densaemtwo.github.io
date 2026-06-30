@@ -2,187 +2,187 @@ const crafts = {
     _data: [
         {
             name: "Самуель Оберг - 5",
-            img: "./assets/crafts/craft1.png",
+            img: "./assets/crafts/Самуель Оберг - 5.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - blocks",
-            img: "./assets/crafts/craft2.png",
+            img: "./assets/crafts/C418 - blocks.png",
             desc: "Описание крафта.",
             tag: "Пластинка"
         },
         {
             name: "C418 - mellohi",
-            img: "./assets/crafts/craft3.png",
+            img: "./assets/crafts/C418 - mellohi.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "Лена Рейн - otherside",
-            img: "./assets/crafts/craft4.png",
+            img: "./assets/crafts/Лена Рейн - otherside.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - strad",
-            img: "./assets/crafts/craft5.png",
+            img: "./assets/crafts/C418 - strad.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "Аарон Шероф - Precipice",
-            img: "./assets/crafts/craft6.png", //В теории сюда можно запихать ссылку настоящую
+            img: "./assets/crafts/Аарон Шероф - Precipice.png", //В теории сюда можно запихать ссылку настоящую
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - 11",
-            img: "./assets/crafts/craft7.png",
+            img: "./assets/crafts/C418 - 11.png",
             desc: "",
             tag: "Пластинка"
         },
 		{
             name: "Лена Рейн - Creator(Музыкальная шкатулка)",
-            img: "./assets/crafts/craft8.png",
+            img: "./assets/crafts/Лена Рейн - Creator(Музыкальная шкатулка).png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - 13",
-            img: "./assets/crafts/craft9.png",
+            img: "./assets/crafts/C418 - 13.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - stal",
-            img: "./assets/crafts/craft10.png",
+            img: "./assets/crafts/C418 - stal.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "Аарон Шероф - Relic",
-            img: "./assets/crafts/craft11.png",
+            img: "./assets/crafts/Аарон Шероф - Relic.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - far",
-            img: "./assets/crafts/craft12.png",
+            img: "./assets/crafts/C418 - far.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "Лена Рейн - Pigstep",
-            img: "./assets/crafts/craft13.png",
+            img: "./assets/crafts/Лена Рейн - Pigstep.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "Эймос Родди - Tears",
-            img: "./assets/crafts/craft14.png",
+            img: "./assets/crafts/Эймос Родди - Tears.png",
             desc: "",
             tag: "Пластинка"
         },
 		{
             name: "C418 - cat",
-            img: "./assets/crafts/craft15.png",
+            img: "./assets/crafts/C418 - cat.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - wait",
-            img: "./assets/crafts/craft16.png",
+            img: "./assets/crafts/C418 - wait.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - ward",
-            img: "./assets/crafts/craft17.png",
+            img: "./assets/crafts/C418 - ward.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "Лена Рейн - Creator",
-            img: "./assets/crafts/craft18.png",
+            img: "./assets/crafts/Лена Рейн - Creator.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - chirp",
-            img: "./assets/crafts/craft19.png",
+            img: "./assets/crafts/C418 - chirp.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "C418 - mall",
-            img: "./assets/crafts/craft20.png",
+            img: "./assets/crafts/C418 - mall.png",
             desc: "",
             tag: "Пластинка"
         },
 		{
             name: "Hyper Potions - Lava Chicken",
-            img: "./assets/crafts/craft21.png",
+            img: "./assets/crafts/Hyper Potions - Lava Chicken.png",
             desc: "",
             tag: "Пластинка"
         },
         {
             name: "Осколок пластинки",
-            img: "./assets/crafts/craft22.png",
+            img: "./assets/crafts/Осколок пластинки.png",
             desc: "",
             tag: "Разное"
         },
         {
             name: "Медная конская броня",
-            img: "./assets/crafts/craft23.png",
+            img: "./assets/crafts/Медная конская броня.png",
             desc: "",
-            tag: "Разное"
+            tag: "Броня"
         },
         {
             name: "Железная конская броня",
-            img: "./assets/crafts/craft24.png",
+            img: "./assets/crafts/Железная конская броня.png",
             desc: "",
-            tag: "Разное"
+            tag: "Броня"
         },
         {
             name: "Золотая конская броня",
-            img: "./assets/crafts/craft5.png",
+            img: "./assets/crafts/Золотая конская броня.png",
             desc: "",
-            tag: "Разное"
+            tag: "Броня"
         },
         {
             name: "Алмазная конская броня",
-            img: "./assets/crafts/craft26.png",
+            img: "./assets/crafts/Алмазная конская броня.png",
             desc: "",
-            tag: "Разное"
+            tag: "Броня"
         },
         {
             name: "Цветок хоруса",
             img: "./assets/crafts/craft27.png",
             desc: "",
-            tag: "Еда"
+            tag: "Учёный"
         },
         {
             name: "Бирка",
-            img: "./assets/crafts/craft28.png", 
+            img: "./assets/crafts/Бирка.png", 
             desc: "",
             tag: "Разное"
         },
         {
             name: "Седло",
-            img: "./assets/crafts/craft29.png", 
+            img: "./assets/crafts/Седло.png", 
             desc: "",
             tag: "Разное"
         },
         {
             name: "Колокол",
-            img: "./assets/crafts/craft30.png", 
+            img: "./assets/crafts/Колокол.png", 
             desc: "",
             tag: "Блоки"
         },
         {
             name: "Эндерняк",
-            img: "./assets/crafts/craft31.png", 
+            img: "./assets/crafts/Эндерняк.png", 
             desc: "",
             tag: "Блоки"
         }
