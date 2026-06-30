@@ -184,7 +184,7 @@ const crafts = {
             name: "Эндерняк",
             img: "./assets/crafts/craft31.png", 
             desc: "",
-            tag: "
+            tag: "Блоки"
         }
     ],
 //Эта чепуха делает красиво всё плиточками, думайте
