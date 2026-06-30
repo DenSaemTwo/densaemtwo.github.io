@@ -158,7 +158,7 @@ const crafts = {
         },
         {
             name: "Цветок хоруса",
-            img: "./assets/crafts/craft27.png",
+            img: "./assets/crafts/Цветок хоруса.png",
             desc: "",
             tag: "Учёный"
         },
