@@ -160,7 +160,7 @@ const crafts = {
             name: "Цветок хоруса",
             img: "./assets/crafts/craft27.png",
             desc: "",
-            tag: "Ела"
+            tag: "Еда"
         },
         {
             name: "Бирка",
